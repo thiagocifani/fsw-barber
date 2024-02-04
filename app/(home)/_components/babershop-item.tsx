@@ -44,7 +44,7 @@ const BarbershopItem = ({ barbershop }: BarbeshopItemProps) => {
           <p className="overflow-hidden text-ellipsis text-nowrap text-sm text-gray-400">
             {barbershop.address}
           </p>
-          <Button className="mt-3 w-full" variant="secondary">
+          <Button className="mt-3 w-full font-bold" variant="secondary">
             Reservar
           </Button>
         </div>
